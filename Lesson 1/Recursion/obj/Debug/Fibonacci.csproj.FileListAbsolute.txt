@@ -1,0 +1,7 @@
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\Recursion\bin\Debug\Recursion.exe.config
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\Recursion\bin\Debug\Recursion.exe
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\Recursion\bin\Debug\Recursion.pdb
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\Recursion\obj\Debug\Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\Recursion\obj\Debug\Recursion.exe
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\Recursion\obj\Debug\Recursion.pdb
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\Recursion\obj\Debug\Fibonacci.csprojAssemblyReference.cache
