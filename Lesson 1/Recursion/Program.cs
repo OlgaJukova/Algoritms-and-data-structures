@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Recursion
 {
     class Program
@@ -43,16 +44,16 @@ namespace Recursion
                 ExpectedException = null
             };
 
-            Test(testCasePos1, FibRec);
-            Test(testCasePos1, FibCycle);
+            TestCase.Test(testCasePos1, FibRec);
+            TestCase.Test(testCasePos1, FibCycle);
             Console.WriteLine(  );
 
-            Test(testCasePos2, FibRec);
-            Test(testCasePos2, FibCycle);
+            TestCase.Test(testCasePos2, FibRec);
+            TestCase.Test(testCasePos2, FibCycle);
             Console.WriteLine();
 
-            Test(testCasePos3, FibRec);
-            Test(testCasePos3, FibCycle);
+            TestCase.Test(testCasePos3, FibRec);
+            TestCase.Test(testCasePos3, FibCycle);
             Console.WriteLine();
 
 
@@ -99,15 +100,27 @@ namespace Recursion
             };
         }
 
-        public class TestCase
-        {
-            public int n { get; set; }
-           
-            public int Expected { get; set; }
-            public Exception ExpectedException { get; set; }
-        }
+        
 
-        static void Test(TestCase testCase, Func<int, int> function)
+       
+
+
+
+
+
+    }
+    
+
+    public class TestCase
+    {
+        public int n { get; set; }
+
+        
+        public int Expected { get; set; }
+        public bool Expected1 { get; set; }
+        public Exception ExpectedException { get; set; }
+
+        public static void Test(TestCase testCase, Func<int, int> function)
         {
             try
             {
@@ -126,19 +139,47 @@ namespace Recursion
             {
                 if (testCase.ExpectedException != null)
                 {
-                    
+
                     Console.WriteLine("Test passed");
                 }
                 else
                 {
                     Console.WriteLine("Tast faileds");
-                } 
+                }
             }
         }
 
 
 
+        public static void Test(TestCase testCase, Func<int, bool> function)
+        {
+            try
+            {
+                var value = function(testCase.n);
 
+                if (value == testCase.Expected1)
+                {
+                    Console.WriteLine("Test passed");
+                }
+                else
+                {
+                    Console.WriteLine("Tast faileds");
+                }
+            }
+            catch (Exception ex)
+            {
+                if (testCase.ExpectedException != null)
+                {
 
+                    Console.WriteLine("Test passed");
+                }
+                else
+                {
+                    Console.WriteLine("Tast faileds");
+                }
+            }
+        }
     }
+
+
 }

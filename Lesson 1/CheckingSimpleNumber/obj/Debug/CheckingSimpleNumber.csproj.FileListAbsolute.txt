@@ -5,3 +5,7 @@ C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\CheckingSimpleNumb
 C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\CheckingSimpleNumber\obj\Debug\CheckingSimpleNumber.csproj.CoreCompileInputs.cache
 C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\CheckingSimpleNumber\obj\Debug\CheckingSimpleNumber.exe
 C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\CheckingSimpleNumber\obj\Debug\CheckingSimpleNumber.pdb
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\CheckingSimpleNumber\bin\Debug\Recursion.exe
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\CheckingSimpleNumber\bin\Debug\Recursion.pdb
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\CheckingSimpleNumber\bin\Debug\Recursion.exe.config
+C:\Users\79038\Desktop\Algoritms-and-data-structures\Lesson 1\CheckingSimpleNumber\obj\Debug\CheckingSimpleNumber.csproj.CopyComplete
