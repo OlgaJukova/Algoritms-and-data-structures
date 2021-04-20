@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Recursion\Fibonacci.csproj">
+      <Project>{76769189-c1bd-4fb2-bbd5-40ef786cf29e}</Project>
+      <Name>Fibonacci</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
